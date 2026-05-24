@@ -109,7 +109,6 @@ nav a:hover{
 .texto-inicio button{
     padding: 15px 30px;
     border-radius: 10px;
-
     cursor: pointer;
 }
 
@@ -122,8 +121,64 @@ nav a:hover{
 #servicos{
     justify-content: center;
     text-align: center;
+    background-color: white;
 }
 
+#servicos h2{
+    color: #FF6B35;
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+
+#servicos > p{
+    color: #777;
+    font-size: 25px;
+    margin-bottom: 80px;
+
+}
+
+.cards-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card{
+    background-color: #ffffff;
+    width: 350px;
+    padding: 40px 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.card:hover {
+    transform: translateY(-1px);
+}
+
+.icone{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.card h3{
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.card p{
+    color: #777;
+    font-size: 15px;
+    line-height: 1.3;
+    margin-bottom: 30px;
+}
+
+.preco{
+    color:#FF6B35;
+    font-size: 16px;
+}
 
 
 
