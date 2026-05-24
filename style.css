@@ -15,6 +15,9 @@ body{
     align-items: center;
     padding: 10px 5%;
     background-color: #ffffff;
+    position:sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .logo{
@@ -63,11 +66,13 @@ nav a:hover{
 }
 
 .texto-inicio h2{
+    color: white;
     font-size: 55px;
     margin-bottom: 20px;
 }
 
 .texto-inicio p{
+    color: white;
     font-size: 35px;
     margin-bottom: 30px;
 }
@@ -75,16 +80,27 @@ nav a:hover{
 .botoes{
     display: flex;
     gap: 20px;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
 }
 
+.btn-agendar, .btn-servicos{
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
 .btn-agendar{
+    padding: 15px 30px;
     background-color: white;
     color: #FF6B35;
     border: none;
 }
 
+
 .btn-servicos{
+    padding: 14px 27px;
     background-color: #FF6B35;
     color: white;
     border: 2px solid white;
@@ -100,6 +116,12 @@ nav a:hover{
 .imagem-inicio img{
     width: 500px;
     border-radius: 10px;
+    margin-right: 75px;
+}
+
+#servicos{
+    justify-content: center;
+    text-align: center;
 }
 
 
