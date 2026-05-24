@@ -15,7 +15,6 @@ body{
     align-items: center;
     padding: 10px 5%;
     background-color: #ffffff;
-    border-bottom: 1px solid black
 }
 
 .logo{
@@ -50,4 +49,60 @@ nav a{
 nav a:hover{
     color: #FF6B35;
 }
+
+#inicio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 120px;
+    background-color: #FF6B35;
+}
+
+.texto-inicio{
+    max-width: 700px;
+}
+
+.texto-inicio h2{
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.texto-inicio p{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.botoes{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.btn-agendar{
+    background-color: white;
+    color: #FF6B35;
+    border: none;
+}
+
+.btn-servicos{
+    background-color: #FF6B35;
+    color: white;
+    border: 2px solid white;
+}
+
+.texto-inicio button{
+    padding: 15px 30px;
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+
+.imagem-inicio img{
+    width: 500px;
+    border-radius: 10px;
+}
+
+
+
+
 
