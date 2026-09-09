@@ -1,80 +1,113 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Amigo PET</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PetAmor | Cuidado de verdade para o seu pet</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <header class="topo">
-        <div class="logo">
-            <img src="imgs/LOGO-AMIGO-PET.png" alt="LOGO" class="img-logo">
-            <h1>Amigo Pet</h1>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#inicio">Início</a></li>
-                <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#agendar">Agendar</a></li>
-                <li><a href="#contatos">Contatos</a></li>
-                <li><a href="#fotos">Fotos</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <section id="inicio">
-        <div class="texto-inicio">
-            <h2>Cuidando do seu melhor amigo com amor e carinho</h2>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#" class="logo">🐾 Amigo Pet</a>
 
-            <p>oferecemos os melhores serviços e produtos para o bem-estar do seu pet</p>
-            <div class="botoes">
-                <a href="#agendar" class="btn-agendar">Agendar Agora</a>
+      <nav class="nav">
+        <a href="#servicos">Serviços</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#contato">Contato</a>
+      </nav>
 
-                <a href="#servicos" class="btn-servicos">Nossos Serviços</a>
-            </div>
-        </div>
+      <a href="#" class="btn btn--primary btn--small">
+        <img src="assets/imgs/logos/whatsapp.png" alt="whatsapp logo" class="icon"> Agendar
+      </a>
+    </div>
+  </header>
 
-        <div class="imagem-inicio">
-            <img src="imgs/imagemIG.png" alt="cachorro">
-        </div>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero__inner">
 
-    </section>
+      <div class="hero__content">
+        <span class="badge">O melhor cuidado para o seu pet</span>
 
-    <section id="servicos">
-        <h2>Nossos Serviços</h2>
-        <p>Tudo que seu pet precisa em um só lugar</p>
+        <h1 class="hero__title">
+          Seu pet merece <span class="highlight">amor</span> e cuidado de verdade
+        </h1>
 
-        <div class="cards-container">
-            <div class="card">
-                <div class="icone">🛁</div>
-                <h3>Banho</h3>
-                <p>Banho completo com Produtos de alta qualidade e secagem profissional</p>
-                <span class="preco">A partir de R$50</span>
-            </div>
+        <p class="hero__text">
+          No PetAmor, cada animal é tratado com atenção especial. Banho, tosa,
+          veterinário, hotel e muito mais — tudo em um só lugar.
+        </p>
 
-            <div class="card">
-                <div class="icone">✂️</div>
-                <h3>Tosa</h3>
-                <p>Tosa higiênica e estética com profissionais especializados</p>
-                <span class="preco">A partir de R$70</span>
-            </div>
-
-            <div class="card">
-                <div class="icone">🩺</div>
-                <h3>Veterinário</h3>
-                <p>Consulta veterinária com profissional qualificado</p>
-                <span class="preco">A partir de R$90</span>
-            </div>
-
+        <div class="hero__actions">
+          <a href="#" class="btn btn--primary">
+            <img src="assets/imgs/logos/whatsapp.png" alt="logo whatsapp" class="icon"> Agendar pelo WhatsApp
+          </a>
+          <a href="#servicos" class="btn btn--outline">Ver serviços</a>
         </div>
 
-    </section>
+        <div class="hero__stats">
+          <span class="pill">+1.000 pets atendidos</span>
+          <span class="pill">Atendimento rápido</span>
+        </div>
+      </div>
 
+      <div class="hero__gallery">
+        <img src="assets/imgs/cachorro2IG.png" alt="cachorro maior bem cuidado" class="hero__img hero__img--main">
+        <img src="assets/imgs/imagemIG.png" alt="Cachorro menor bem cuidado" class="hero__img hero__img--top">
+        <img src="assets/imgs/gato1.png.png" alt="pequeno gatinho" class="hero__img hero__img--bottom">
+      </div>
 
+    </div>
+  </section>
 
+  <!-- SERVIÇOS -->
+  <section id="servicos" class="services">
+    <div class="container">
+      <div class="services__header">
+        <span class="badge badge--light">Nossos Serviços</span>
+        <h2 class="services__title">Tudo que seu pet precisa</h2>
+        <p class="services__text">
+          Do banho à consulta veterinária, oferecemos serviços completos com
+          qualidade e muito carinho.
+        </p>
+      </div>
+
+      <div class="services__grid">
+
+        <div class="card">
+          <div class="card__icon">✂️</div>
+          <h3>Banho &amp; Tosa</h3>
+          <p>Deixamos seu pet cheiroso, limpo e lindo com produtos premium e carinho de verdade.</p>
+          <a href="#" class="card__link">Agendar este serviço →</a>
+        </div>
+
+        <div class="card">
+          <div class="card__icon">🩺</div>
+          <h3>Consulta Veterinária</h3>
+          <p>Equipe veterinária especializada para cuidar da saúde e bem-estar do seu animal.</p>
+          <a href="#" class="card__link">Agendar este serviço →</a>
+        </div>
+
+        <div class="card">
+          <div class="card__icon">💊</div>
+          <h3>Vacinação</h3>
+          <p>Calendário de vacinação completo para manter seu pet protegido e saudável.</p>
+          <a href="#" class="card__link">Agendar este serviço →</a>
+        </div>
+
+      </div>
+
+      <div class="services__cta">
+        <a href="#" class="btn btn--white">
+          <span class="icon">💬</span> Agendar um serviço agora
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <script src="js/main.js"></script>
 </body>
-
 </html>
