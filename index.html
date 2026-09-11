@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PetAmor | Cuidado de verdade para o seu pet</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
   <!-- HEADER -->
@@ -81,7 +83,7 @@
           <div class="card__icon">✂️</div>
           <h3>Banho &amp; Tosa</h3>
           <p>Deixamos seu pet cheiroso, limpo e lindo com produtos premium e carinho de verdade.</p>
-          <a href="#" class="card__link">Agendar este serviço →</a>
+          <a href="#" class="card__link">Ver este serviço →</a>
         </div>
 
         <div class="card">
@@ -102,12 +104,50 @@
 
       <div class="services__cta">
         <a href="#" class="btn btn--white">
-          <span class="icon">💬</span> Agendar um serviço agora
+          <span> <img src="assets/imgs/logos/whatsapp.png" alt=" logo whatsapp" class="icon"></span> Agendar um serviço
+          agora
         </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PREÇOS POR RAÇA -->
+  <section id="precos" class="pricing">
+    <div class="container">
+      <div class="pricing__header">
+        <span class="badge">Tabela de Banho por Raça</span>
+        <h2 class="pricing__title">Preços por raça</h2>
+        <p class="pricing__text">
+          Selecione a raça do seu pet e veja os valores de banho por tamanho de pelo.
+        </p>
+      </div>
+
+      <!-- Botões das raças, gerados via JS a partir do array "breeds" -->
+      <div class="breed-list" id="breedList"></div>
+
+      <!-- Card de preços, atualizado via JS conforme a raça clicada -->
+      <div class="price-card">
+        <div class="price-card__header">
+          <span class="price-card__icon" id="priceIcon">🐕</span>
+          <div>
+            <span class="price-card__label">Raça selecionada</span>
+            <h3 id="priceCardTitle">—</h3>
+          </div>
+        </div>
+
+        <ul class="price-list" id="priceList"></ul>
+
+        <div class="price-card__footer">
+          <span class="price-card__note">Dúvidas sobre o tamanho do pelo? Fale com a gente!</span>
+          <a href="#" class="btn btn--primary btn--small">
+            <img src="assets/imgs/logos/whatsapp.png" alt="WhatsApp" class="icon"> Agendar agora
+          </a>
+        </div>
       </div>
     </div>
   </section>
 
   <script src="js/main.js"></script>
 </body>
+
 </html>

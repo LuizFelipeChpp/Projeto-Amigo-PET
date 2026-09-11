@@ -281,7 +281,145 @@ img {
   font-size: 0.9rem;
 }
 
-/* ===== RESPONSIVO ===== */
+/* ===== PREÇOS POR RAÇA ===== */
+.pricing {
+  padding: 80px 0;
+  text-align: center;
+}
+ 
+.pricing__header {
+  max-width: 620px;
+  margin: 0 auto 40px;
+}
+ 
+.pricing__title {
+  font-size: 2.5rem;
+  margin: 16px 0;
+}
+ 
+.pricing__text {
+  color: var(--text-muted);
+  font-size: 1.05rem;
+}
+ 
+.breed-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  max-width: 900px;
+  margin: 0 auto 32px;
+}
+ 
+.breed-btn {
+  padding: 12px 20px;
+  border-radius: 999px;
+  border: 1px solid #FBD9B4;
+  background: var(--cream);
+  color: var(--text-muted);
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+ 
+.breed-btn:hover {
+  border-color: var(--orange);
+  color: var(--orange-dark);
+}
+ 
+.breed-btn--active {
+  background: var(--orange);
+  border-color: var(--orange);
+  color: var(--white);
+}
+ 
+.price-card {
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid #FBD9B4;
+  text-align: left;
+}
+ 
+.price-card__header {
+  background: var(--orange);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 24px 32px;
+}
+ 
+.price-card__icon {
+  font-size: 1.8rem;
+}
+ 
+.price-card__label {
+  display: block;
+  font-size: 0.85rem;
+  opacity: 0.9;
+}
+ 
+.price-card__header h3 {
+  font-size: 1.4rem;
+  margin-top: 2px;
+}
+ 
+.price-list {
+  list-style: none;
+}
+ 
+.price-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 32px;
+  border-bottom: 1px solid #F3E6D8;
+  font-size: 1rem;
+}
+ 
+.price-list li:nth-child(even) {
+  background: var(--cream-light);
+}
+ 
+.price-list li strong {
+  color: var(--orange-dark);
+  font-size: 1.1rem;
+}
+ 
+.dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--orange);
+  margin-right: 10px;
+}
+ 
+.price-list__nota {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  font-style: italic;
+}
+ 
+.price-card__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 20px 32px;
+  flex-wrap: wrap;
+  background: var(--cream-light);
+}
+ 
+.price-card__note {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+/*RESPONSIVIDADE MOBILE*/
 @media (max-width: 900px) {
   .nav {
     display: none;

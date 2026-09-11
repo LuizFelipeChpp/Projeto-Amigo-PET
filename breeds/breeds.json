@@ -1,0 +1,147 @@
+[
+  {
+    "name": "Akita",
+    "precos": [
+      { "tipo": "Pelo Curto", "valor": "R$ 100" },
+      { "tipo": "Pelo Médio", "valor": "R$ 120" },
+      { "tipo": "Pelo Grande", "valor": "R$ 150" }
+    ]
+  },
+  {
+    "name": "Basset",
+    "precos": [
+      { "tipo": "Pelo Curto", "valor": "R$ 70" },
+      { "tipo": "Pelo Médio", "valor": "R$ 85" },
+      { "tipo": "Pelo Grande", "valor": "R$ 105" }
+    ]
+  },
+  {
+    "name": "Beagle",
+    "precos": [
+      { "tipo": "Pelo Curto", "valor": "R$ 65" },
+      { "tipo": "Pelo Médio", "valor": "R$ 80" },
+      { "tipo": "Pelo Grande", "valor": "R$ 100" }
+    ]
+  },
+  {
+    "name": "Border Collie",
+    "precos": [
+      { "tipo": "Pelo Curto", "valor": "R$ 90" },
+      { "tipo": "Pelo Médio", "valor": "R$ 110" },
+      { "tipo": "Pelo Grande", "valor": "R$ 135" }
+    ]
+  },
+  {
+    "name": "Buldogue Francês",
+    "nota": "Disponível até tamanho M",
+    "precos": [
+      { "tipo": "Pelo Curto", "valor": "R$ 60" },
+      { "tipo": "Pelo Médio", "valor": "R$ 75" }
+    ]
+  },
+  {
+    "name": "Chow Chow",
+    "precos": [
+      { "tipo": "Pelo Curto", "valor": "R$ 80" },
+      { "tipo": "Pelo Médio", "valor": "R$ 100" },
+      { "tipo": "Pelo Grande", "valor": "R$ 130" }
+    ]
+  },
+  {
+    "name": "Golden",
+    "precos": [
+      { "tipo": "Pelo Curto", "valor": "R$ 85" },
+      { "tipo": "Pelo Médio", "valor": "R$ 105" },
+      { "tipo": "Pelo Grande", "valor": "R$ 130" }
+    ]
+  },
+  {
+    "name": "Labrador",
+    "precos": [
+      { "tipo": "Pelo Curto", "valor": "R$ 80" },
+      { "tipo": "Pelo Médio", "valor": "R$ 100" },
+      { "tipo": "Pelo Grande", "valor": "R$ 125" }
+    ]
+  },
+  {
+    "name": "Lhasa",
+    "precos": [
+      { "tipo": "Pelo Curto", "valor": "R$ 40" },
+      { "tipo": "Pelo Médio", "valor": "R$ 50" },
+      { "tipo": "Pelo Grande", "valor": "R$ 60" }
+    ]
+  },
+  {
+    "name": "Lulu",
+    "precos": [
+      { "tipo": "Pelo Curto", "valor": "R$ 50" },
+      { "tipo": "Pelo Médio", "valor": "R$ 65" },
+      { "tipo": "Pelo Grande", "valor": "R$ 70" }
+    ]
+  },
+  {
+    "name": "Maltês",
+
+    "precos": [
+      { "tipo": "Pelo Curto", "valor": "R$ 40" },
+      { "tipo": "Pelo Médio", "valor": "R$ 50" },
+      { "tipo": "Pelo Grande", "valor": "R$60" }
+    ]
+  },
+  {
+    "name": "Pastor Alemão",
+    "precos": [
+      { "tipo": "Pelo Curto", "valor": "R$ 95" },
+      { "tipo": "Pelo Médio", "valor": "R$ 115" },
+      { "tipo": "Pelo Grande", "valor": "R$ 140" }
+    ]
+  },
+  {
+    "name": "Pincher",
+    "precos": [
+      { "tipo": "Pelo Curto", "valor": "R$ 55" },
+      { "tipo": "Pelo Médio", "valor": "R$ 70" },
+      { "tipo": "Pelo Grande", "valor": "R$ 90" }
+    ]
+  },
+  {
+    "name": "Poodle",
+    "precos": [
+      { "tipo": "Pelo Curto", "valor": "R$ 45" },
+      { "tipo": "Pelo Médio", "valor": "R$ 50" },
+      { "tipo": "Pelo Grande", "valor": "R$ 60" }
+    ]
+  },
+  {
+    "name": "Pug",
+    "precos": [
+      { "tipo": "Pelo Curto", "valor": "R$ 55" },
+      { "tipo": "Pelo Médio", "valor": "R$ 70" },
+      { "tipo": "Pelo Grande", "valor": "R$ 90" }
+    ]
+  },
+  {
+    "name": "S.R.D",
+    "precos": [
+      { "tipo": "Pelo Curto", "valor": "R$ 40" },
+      { "tipo": "Pelo Médio", "valor": "R$ 50" },
+      { "tipo": "Pelo Grande", "valor": "R$ 60 a 70" }
+    ]
+  },
+  {
+    "name": "Shih Tzu",
+    "precos": [
+      { "tipo": "Pelo Curto", "valor": "R$ 40" },
+      { "tipo": "Pelo Médio", "valor": "R$ 50" },
+      { "tipo": "Pelo Grande", "valor": "R$ 60" }
+    ]
+  },
+  {
+    "name": "Yorkshire",
+    "precos": [
+      { "tipo": "Pelo Curto", "valor": "R$ 40" },
+      { "tipo": "Pelo Médio", "valor": "R$ 50" },
+      { "tipo": "Pelo Grande", "valor": "R$ 60" }
+    ]
+  }
+]
